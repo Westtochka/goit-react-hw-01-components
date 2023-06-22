@@ -1,9 +1,37 @@
-.profile{
-    background-color: rgb(114, 104, 104);
+/* body{
+    
+} */
+.profile {
+  /* background-color: rgb(114, 104, 104); */
 }
 /* .name{
 
 } */
-.stats{
-    list-style-type:none;
+.description {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stats {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(211, 204, 204);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.avatar {
+  border-radius: 50%;
+  width: 40%;
+}
+.label {
+  color: azure;
 }
