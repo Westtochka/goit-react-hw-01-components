@@ -1,37 +1,85 @@
 /* body{
     
 } */
+p{
+  margin-top:0;
+}
 .profile {
-  /* background-color: rgb(114, 104, 104); */
+  /* width:768px; */
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(206, 204, 204, 0.4);
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
 }
 /* .name{
 
 } */
+.name{
+  font-weight:500;
+}
 .description {
   background-color: white;
+padding-top: 80px;
+padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px;
+
 }
 .stats {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(211, 204, 204);
-  padding-left: 15px;
-  padding-right: 15px;
+
+  background-color: rgb(234, 227, 227);
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius:10px;
+  padding-left:0;
 }
 
 .stats li {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+
   align-items: center;
+  justify-content: center;
+ width: calc(100%/3);
+column-gap: 10px;
+padding: 20px 20px ;
+border:1px solid rgb(86, 84, 84, 0.4);
+
 }
+
 .avatar {
   border-radius: 50%;
-  width: 40%;
+  width: 30%;
+  /* margin-top: 40px; */
+  margin-bottom:40px;
+}
+.tag{
+  font-size:34px;
+  color: rgb(129, 131, 131);
+}
+.location{
+  font-size:34px;
+  color: rgb(129, 131, 131);
+  margin-bottom:0;
 }
 .label {
-  color: azure;
+  color: rgb(129, 131, 131);
+  font-size:32px;
+}
+
+.quantity{
+  font-size:32px;
+  font-weight:700;
+  
 }
