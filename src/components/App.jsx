@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Profile } from "./Profile/Profile";
-import {Statistics} from '/Statistics/Statistics';
+import {Statistics} from './Statistics/Statistics';
 
 import user from '../user.json';
 import data from '../data.json';
@@ -10,7 +10,7 @@ export const App = () => {
     <div
       style={{
         height: '100vh',
-        display: 'flex',
+        // display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
@@ -26,7 +26,6 @@ export const App = () => {
 />
 
 <Statistics title="Upload stats" stats={data} />
-<Statistics stats={data} />
 
     </div>
   );
@@ -47,3 +46,7 @@ tag: PropTypes.string.isRequired,
   })
   )
 }
+
+// Statistics.propTypes={
+  
+// }
