@@ -2,5 +2,8 @@
 .friendList{
     display: flex;
     flex-direction: column;
-    row-gap:15px;
+    row-gap:25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 50px 50px;
 }
