@@ -1,4 +1,4 @@
-// import PropTypes from 'prop-types'
+import PropTypes from 'prop-types'
 import { FriendListItem } from 'components/FriendListItem/FriendListItem';
 import css from './FriendList.module.css';
 export const FriendList=({friends})=>{
@@ -16,13 +16,14 @@ export const FriendList=({friends})=>{
     )
 }
 
-// FrienList.propTypes ={
-//        friends: PropTypes.arrayOf(PropTypes.number),
-//        (avatar: PropTypes.string.isRequired,
-//         name: PropTypes.string.isRequired,
-//         isOnline: PropTypes.bool.isRequired,
-//         id: PropTypes.number.isRequired
-//        )
-//     }
-    
+FriendList.propTypes = {
+  friends: PropTypes.arrayOf(
+      PropTypes.exact({
+          id: PropTypes.number.isRequired,
+          avatar: PropTypes.string.isRequired,
+          isOnline: PropTypes.bool.isRequired,
+          name: PropTypes.string.isRequired,
+      }),
+  ),
+}
 

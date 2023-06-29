@@ -1,0 +1,10 @@
+table {
+    width: 70%;
+    /* border-collapse: collapse; */
+    font-size: 14px;
+    color: rgb(129, 131, 131);
+    margin: 100px auto;
+    border-radius: 5px 5px 0px 0px;
+    font-family: Calibri, Arial, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+}
